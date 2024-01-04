@@ -1,6 +1,6 @@
 # Tutorial - Deploy DeciLM-7B using Inferless
 
-Check out [this tutorial](https://tutorials.inferless.com/~/changes/BjDKNpYSU2dIwBTKfNxC?r=Sx8PZOdd24ZQAP3ZnHxv) which will guide you through the process of deploying a DeciLM-7B model using Inferless.
+Check out [this tutorial](https://tutorials.inferless.com/deploy-deci-7b-using-inferless) which will guide you through the process of deploying a DeciLM-7B model using Inferless.
 
 ## TL;DR - Deploy DeciLM-7B using Inferless:
 - Deployment of Deploy DeciLM-7B model using [bitsandbytes](https://github.com/TimDettmers/bitsandbytes).
