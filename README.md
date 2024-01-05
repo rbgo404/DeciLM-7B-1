@@ -6,7 +6,7 @@ Check out [this tutorial](https://tutorials.inferless.com/deploy-deci-7b-using-i
 - Deployment of Deploy DeciLM-7B model using [bitsandbytes](https://github.com/TimDettmers/bitsandbytes).
 
 - By using the bitsandbytes, you can expect an average latency of 9.25 sec, generating an average of 23.18 tokens/sec where each token took 43.12 ms and an average cold start time of 9.85sec using an A100 GPU(80GB).
-- Dependencies defined in config.yaml.
+- Dependencies defined in inferless-runtime-config.yaml.
 - GitHub/GitLab template creation with app.py and config.yaml.
 - Model class in app.py with initialize, infer, and finalize functions.
 - Custom runtime creation with necessary system and Python packages.
