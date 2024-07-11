@@ -1,4 +1,3 @@
-import torch
 from transformers import AutoModelForCausalLM, AutoTokenizer, pipeline
 
 class InferlessPythonModel:
@@ -16,4 +15,4 @@ class InferlessPythonModel:
         return {'generated_result': generated_text}
 
     def finalize(self):
-        pass
+        self.qtq_pipe = None
