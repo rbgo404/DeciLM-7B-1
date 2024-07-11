@@ -7,8 +7,8 @@ Check out [this tutorial](https://docs.inferless.com/how-to-guides/deploy-deci-7
 
 - By using the bitsandbytes, you can expect an average latency of `9.25 sec`, generating an average of `23.18 tokens/sec` where each token took `43.12 ms` and an average cold start time of `9.85 sec` using an A100 GPU(80GB).
 - Dependencies defined in `inferless-runtime-config.yaml`.
-- GitHub/GitLab template creation with `app.py` and `inferless.yaml`.
-- Model class in app.py with `initialize`, `infer`, and `finalize` functions.
+- GitHub/GitLab template creation with `app.py`,`inferless-runtime-config.yaml` and `inferless.yaml`.
+- Model class in `app.py` with `initialize`, `infer`, and `finalize` functions.
 - Custom runtime creation with necessary system and Python packages.
 - Recommended GPU: NVIDIA A100 for optimal performance.
 - Custom runtime selection in advanced configuration.
